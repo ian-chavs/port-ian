@@ -1,0 +1,1581 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--
+      PRELOAD: pede ao navegador para baixar estas imagens logo no início (carrega mais rápido).
+      Se você trocar/renomear uma imagem do site, atualize o nome aqui também (ou apague a linha).
+    -->
+    <link rel="preload" as="image" href="images/avatar-1-B32B7xz0.png" />
+    <link rel="preload" as="image" href="images/avatar-2-BwmxCLMc.png" />
+    <link rel="preload" as="image" href="images/avatar-3-UHLjOO3I.png" />
+    <link rel="preload" as="image" href="images/avatar-4-oF7v5td3.webp" />
+    <link rel="preload" as="image" href="images/cloud-soft.png" />
+    <link rel="preload" as="image" href="images/cloud-voluminous.png" />
+    <link rel="preload" as="image" href="images/process-bg-mobile.png" />
+    <link rel="preload" as="image" href="images/process-bg-tablet.png" />
+    <link rel="preload" as="image" href="images/process-bg-desktop.png" />
+    <link
+      rel="preload"
+      as="image"
+      href="images/process-bg-desktop-grande.png"
+    />
+    <!-- CSS PRINCIPAL: todo o visual do site (cores, tamanhos, posições) está em css/styles-BBPBVkOb.css -->
+    <link
+      rel="stylesheet"
+      href="css/styles-BBPBVkOb.css"
+      data-precedence="default"
+    />
+    <!-- FONTES DO GOOGLE: Poppins e Instrument Serif (precisam de internet). A fonte principal do site é local: fonts/ProductSansInfanity.ttf -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap"
+      data-precedence="default"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="images/universo-card-identidade.webp"
+    />
+    <link rel="preload" as="image" href="images/hand-logo.webp" />
+    <link rel="preload" as="image" href="images/logo-ic-footer.webp" />
+    <link rel="preload" as="image" href="images/minha-logo.jpg" />
+    <!-- ✏️ TROQUE: título que aparece na aba do navegador e no Google -->
+    <title>Ian Chaves | desenvolvedor web</title>
+    <meta name="theme-color" content="#000000" />
+    <!-- ✏️ TROQUE: descrição que aparece abaixo do título nos resultados do Google -->
+    <meta
+      name="description"
+      content="O site que vai transformar o nível do seu negócio terá a minha assinatura."
+    />
+    <meta
+      name="robots"
+      content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    />
+    <!--
+      ✏️ REDES SOCIAIS (og: = WhatsApp/Facebook/LinkedIn, twitter: = X): prévia ao compartilhar o link.
+      Troque nome, título, descrição, URL (og:url) e a imagem (images/og-image.jpg, tamanho 1200x630).
+    -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Ian Chaves" />
+    <meta property="og:title" content="Ian Chaves | Desenvolvedor Web" />
+    <meta
+      property="og:description"
+      content="O site que vai transformar o nível do seu negócio terá a minha assinatura."
+    />
+    <meta property="og:url" content="https://ianchaves.dev/" />
+    <meta property="og:image" content="images/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ian Chaves | Desenvolvedor Web" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ian Chaves | Desenvolvedor Web" />
+    <meta
+      name="twitter:description"
+      content="O site que vai transformar o nível do seu negócio terá a minha assinatura."
+    />
+    <meta name="twitter:image" content="images/og-image.png" />
+
+    <!-- (linhas abaixo: restos do React original, já desativados. Pode ignorar/apagar.) -->
+    <!-- <link rel="modulepreload" href="js/index-NH4-6KHG.js" /> -->
+        <!--  <link rel="modulepreload" href="js/index-DdnIsmtK.js" /> -->
+          
+    <link
+      rel="preload"
+      href="fonts/ProductSansInfanity.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin="anonymous"
+    />
+    <style>.preloader{animation:pl-out .6s 3s forwards}@keyframes pl-out{to{opacity:0;visibility:hidden}}</style>
+    <!-- ÍCONE DA ABA (favicon), ícone do iPhone e manifesto do app: arquivos em images/favicon.png, images/apple-touch-icon.png e site.webmanifest (✏️ troque pelos seus) -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link rel="canonical" href="https://ianchaves.dev/" />
+    <!-- SEO (dados estruturados para o Google): quem é você, serviços, site e Instagram. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://ianchaves.dev/#website",
+            "url": "https://ianchaves.dev/",
+            "name": "Ian Chaves",
+            "inLanguage": "pt-BR"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://ianchaves.dev/#ian",
+            "name": "Ian Chaves",
+            "url": "https://ianchaves.dev/",
+            "jobTitle": "Web Designer e Desenvolvedor Web",
+            "sameAs": ["https://www.instagram.com/ian._.chaves/"]
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://ianchaves.dev/#organization",
+            "name": "Ian Chaves",
+            "url": "https://ianchaves.dev/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "images/minha-logo.jpg"
+            },
+            "founder": { "@id": "https://ianchaves.dev/#ian" },
+            "areaServed": { "@type": "Country", "name": "Brasil" },
+            "sameAs": ["https://www.instagram.com/ian._.chaves/"],
+            "makesOffer": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Criação de sites"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Criação de landing pages"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Desenvolvimento web"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://ianchaves.dev/#webpage",
+            "url": "https://ianchaves.dev/",
+            "name": "Ian Chaves | Desenvolvedor Web",
+            "description": "O site que vai transformar o nível do seu negócio terá a minha assinatura.",
+            "isPartOf": { "@id": "https://ianchaves.dev/#website" },
+            "about": { "@id": "https://ianchaves.dev/#organization" },
+            "inLanguage": "pt-BR"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!--$-->
+    <!--
+      ================ CONTEÚDO DA PÁGINA ================
+      Ordem das seções: 1 Hero → 2 Valor → 3 'Um novo site...' → 4 Números → 5 Nuvens → 6 Projetos → 7 Processo → 8 Diferenciais → 9 SEO/Plataforma → 10 Mão/Resultados → 11 FAQ → 12 Rodapé
+    -->
+    <main>
+      <!-- SEÇÃO 1 — HERO (primeira tela). Fundo azul = style background-image abaixo (✏️ images/azul_1.webp). id='top' = destino do botão 'voltar ao topo' -->
+      <div
+        class="creative-hero"
+        id="top"
+        style="background-image: url(images/azul_1.webp)"
+      >
+        <!-- BARRA DO TOPO: menu de links + seletor de idioma + botão hambúrguer -->
+        <header class="creative-nav">
+          <!-- MENU em formato de pílula. Cada href='#algo' rola até a seção com id='algo' (✏️ troque os textos se quiser) -->
+          <nav class="creative-pill" aria-label="Navegação principal">
+            <a href="#top" class="is-active" aria-current="page">Início</a
+            ><a href="#projects" class="">Projetos</a
+            ><a href="#processo" class="">Entrega</a
+            ><a href="#diferenciais" class="">Diferenciais</a>
+          </nav>
+          <div class="creative-nav-actions">
+            <!-- SELETOR DE IDIOMA (bandeiras). Hoje é só visual: o site fica em português (a tradução dependia do React original) -->
+            <div
+              class="lang-toggle"
+              role="group"
+              aria-label="Mudar idioma"
+              data-no-translate="true"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="17"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-languages lang-toggle-icon"
+                aria-hidden="true"
+              >
+                <path d="m5 8 6 6"></path>
+                <path d="m4 14 6-6 2-3"></path>
+                <path d="M2 5h12"></path>
+                <path d="M7 2h1"></path>
+                <path d="m22 22-5-10-5 10"></path>
+                <path d="M14 18h6"></path></svg
+              ><button
+                type="button"
+                class="lang-toggle-btn"
+                aria-pressed="false"
+                aria-label="English"
+              >
+                <span class="lang-toggle-flag"
+                  ><svg
+                    viewBox="0 0 38 26"
+                    preserveAspectRatio="xMidYMid slice"
+                    aria-hidden="true"
+                  >
+                    <rect width="38" height="26" fill="#B22234"></rect>
+                    <rect y="2" width="38" height="2" fill="#fff"></rect>
+                    <rect y="6" width="38" height="2" fill="#fff"></rect>
+                    <rect y="10" width="38" height="2" fill="#fff"></rect>
+                    <rect y="14" width="38" height="2" fill="#fff"></rect>
+                    <rect y="18" width="38" height="2" fill="#fff"></rect>
+                    <rect y="22" width="38" height="2" fill="#fff"></rect>
+                    <rect width="17" height="14" fill="#3C3B6E"></rect></svg
+                ></span></button
+              ><button
+                type="button"
+                class="lang-toggle-btn is-active"
+                aria-pressed="true"
+                aria-label="Português"
+              >
+                <span class="lang-toggle-flag"
+                  ><svg
+                    viewBox="0 0 38 26"
+                    preserveAspectRatio="xMidYMid slice"
+                    aria-hidden="true"
+                  >
+                    <rect width="38" height="26" fill="#009B3A"></rect>
+                    <path d="M19 3 L35 13 L19 23 L3 13 Z" fill="#FEDF00"></path>
+                    <circle
+                      cx="19"
+                      cy="13"
+                      r="5.6"
+                      fill="#002776"
+                    ></circle></svg
+                ></span>
+              </button>
+            </div>
+            <!-- BOTÃO HAMBÚRGUER (3 linhas): o js/static-fix.js mostra/esconde o menu ao clicar -->
+            <button
+              class="creative-burger"
+              aria-label="Abrir menu"
+              aria-expanded="false"
+            >
+              <span></span><span></span>
+            </button>
+          </div>
+        </header>
+        <!-- ✏️ FOTO PRINCIPAL do hero: troque o nome do arquivo em url(images/creative-portrait.webp) pela sua foto -->
+        <div
+          class="creative-portrait"
+          style="background-image: url(images/creative-portrait.webp)"
+          aria-hidden="true"
+        ></div>
+        <!-- TEXTO ESQUERDO do hero: título (h1), frase e botões -->
+        <section
+          class="creative-left"
+          id="services"
+          aria-labelledby="creative-headline"
+        >
+          <!-- ✏️ TÍTULO PRINCIPAL. <br /> = quebra de linha -->
+          <h1 id="creative-headline">
+          TRANSFORME SUA MARCA <br> EM UMA MÁQUINA DE <br> VENDAS COM UM SITE PROFISSIONAL
+          </h1>
+          <p>
+            Do primeiro clique à decisão, eu crio sites que valorizam sua marca
+            e geram clientes.
+          </p>
+          <!-- BOTÕES: 'Solicitar orçamento' (abre WhatsApp) e 'Projetos' (rola até a seção de projetos) -->
+          
+          <div class="creative-cta-row">
+
+            <!-- ✏️ WHATSAPP: troque 5598984550854 pelo SEU número (código do país + DDD + número, sem espaços). Texto após ?text= = mensagem inicial -->
+            <a
+              class="cta-btn cta-primary"
+              href="https://wa.me/5598984550854?text=Ol%C3%A1%21%20Vi%20seu%20site%20e%20quero%20um%20or%C3%A7amento"
+              ><span class="cta-fill cta-fill--blue" aria-hidden="true"></span
+              ><span class="cta-fill cta-fill--white" aria-hidden="true"></span
+              ><span class="cta-label">Solicitar orçamento</span
+              ><span class="cta-chip"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                >
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path></svg></span></a
+            ><a class="cta-btn cta-secondary" href="#projects">Projetos</a>
+          </div>
+        </section>
+        <!-- TEXTO DIREITO (canto inferior) do hero: 'PROJETOS DO ZERO' + frase -->
+        <section
+          class="creative-right"
+          id="about"
+          aria-labelledby="studio-heading"
+        >
+          <h2 id="studio-heading">PROJETOS<br />DO ZERO</h2>
+          <p>
+            Não uso templates! Odeio isso. Cada projeto nasce da essência da sua
+            marca, pensado para criar uma presença impossível de confundir.
+          </p>
+        </section>
+      </div>
+      <!-- SEÇÃO 2 — VALOR (fundo branco): 'A percepção de valor...' + prova social (avatares) + texto + botão -->
+      <section
+        class="value-section"
+        id="vantagens"
+        aria-labelledby="value-heading"
+      >
+        <div class="value-inner">
+          <div class="value-left">
+            <span class="value-tag">PENSE NISSO</span>
+            <h2 id="value-heading">
+              A percepção de valor<br />está totalmente<br /><span
+                >ligada ao visual.</span
+              >
+            </h2>
+            <div class="value-social">
+              <!-- ✏️ FOTOS DE CLIENTES (círculos): troque os 4 arquivos avatar-*.png/webp por suas imagens (ou remova) -->
+              <div class="value-avatars">
+                <span class="imgg"
+                  ><img
+                    src="images/avatar-1-B32B7xz0.png"
+                    alt="Cliente atendido" /></span
+                ><span class="imgg"
+                  ><img
+                    src="images/avatar-2-BwmxCLMc.png"
+                    alt="Cliente atendido" /></span
+                ><span class="imgg"
+                  ><img
+                    src="images/avatar-3-UHLjOO3I.png"
+                    alt="Cliente atendido" /></span
+                ><span class="imgg"
+                  ><img
+                    src="images/avatar-4-oF7v5td3.webp"
+                    alt="Cliente atendida"
+                /></span>
+              </div>
+              <!-- ✏️ Só escreva números reais seus (ex.: '+10 clientes atendidos') -->
+              <p>+150 clientes atendidos</p>
+            </div>
+          </div>
+          <!-- TEXTOS DA DIREITA: value-lead (destaque), value-muted (apoio) e botão de WhatsApp -->
+          <div class="value-copy">
+            <p class="value-lead">
+              Você pode ter um ótimo serviço, um ótimo produto e até potencial
+              para vender muito mais. Mas se o seu site não passa confiança, não
+              valoriza o que você faz e não deixa claro por que alguém deveria
+              escolher você, muita oportunidade acaba ficando pelo caminho... e
+              tu sabe disso!
+            </p>
+            <p class="value-muted">
+              A minha missão é fazer seu negócio parecer tão bom quanto ele
+              realmente é, despertar mais interesse e ajudar mais pessoas a
+              chegarem até você, prontas para comprar.
+            </p>
+            <!-- ✏️ WHATSAPP: troque 5598984550854 pelo SEU número (código do país + DDD + número, sem espaços). Texto após ?text= = mensagem inicial -->
+            <a
+              class="value-cta"
+              href="https://wa.me/5598984550854?text=Ol%C3%A1%21%20Vi%20seu%20site%20e%20quero%20um%20or%C3%A7amento"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Solicitar orçamento
+              <span aria-hidden="true"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  height="17"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                >
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path></svg></span
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- SEÇÃO 3 — 'UM NOVO SITE PODE FAZER SUA EMPRESA VENDER MAIS' (fundo escuro). Cada palavra está num <span class='wallet-word'> para poder animar -->
+      <section
+        class="wallet-section"
+        id="work"
+        aria-labelledby="wallet-headline"
+        style="background-image: url(images/frame-39-smooth-BJ-4MSa0.webp)"
+      >
+        <h2 class="wallet-headline" id="wallet-headline">
+          <span class="wallet-line"
+            ><span class="wallet-word">Um<!-- --> </span
+            ><span class="wallet-word">novo<!-- --> </span
+            ><span class="wallet-word">site<!-- --> </span
+            ><span class="wallet-word">pode</span></span
+          ><span class="wallet-line"
+            ><span class="wallet-word">fazer<!-- --> </span
+            ><span class="wallet-word">sua<!-- --> </span
+            ><span class="wallet-word">empresa</span></span
+          ><span class="wallet-line"
+            ><span class="wallet-word">vender<!-- --> </span
+            ><span class="wallet-word">muito<!-- --> </span
+            ><span class="wallet-word">mais</span></span
+          >
+        </h2>
+        <!-- Imagem decorativa central (carteira sobre rocha) -->
+        <div class="wallet-art-position">
+          <img
+            class="wallet-art"
+            src="images/wallet-rock-faded-DFMrJPbf.webp"
+            alt="Carteira com notas de cem reais sobre uma rocha"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+        <!-- Frase do canto esquerdo -->
+        <div class="wallet-left-copy">
+          <p>
+            Seu negócio ganha mais credibilidade<br />desde a primeira visita ao
+            site.
+          </p>
+        </div>
+        <!-- Frase + botão do canto direito -->
+        <div class="wallet-right-copy">
+          <p>Menos visitantes perdidos.<br />Mais pessoas virando clientes.</p>
+          <!-- ✏️ WHATSAPP: troque 5598984550854 pelo SEU número (código do país + DDD + número, sem espaços). Texto após ?text= = mensagem inicial -->
+          <a
+            class="wallet-cta"
+            href="https://wa.me/5598984550854?text=Ol%C3%A1%21%20Vi%20seu%20site%20e%20quero%20um%20or%C3%A7amento"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Solicite Orçamento
+            <span class="wallet-cta-chip" aria-hidden="true"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-up-right"
+                aria-hidden="true"
+              >
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></span
+          ></a>
+        </div>
+      </section>
+      <!--
+        SEÇÃO 4 — NÚMEROS. O número real vem do aria-label (ex.: aria-label="+150"); o <span data-count> começa em 0 e o js/static-fix.js anima até ele.
+        ✏️ Para mudar: altere o aria-label E o texto do .stats-label. O sufixo (K, %) fica em .stats-suffix
+      -->
+      <section
+        class="stats-section"
+        id="resultados"
+        aria-label="Resultados em números"
+      >
+        <div class="stats-container">
+          <dl class="stats-grid">
+            <div class="stats-item">
+              <dt class="stats-value" aria-label="+150">
+                <span aria-hidden="true"
+                  >+<span data-count="true">0</span
+                  ><span class="stats-suffix"></span
+                ></span>
+              </dt>
+              <dd class="stats-label">Clientes atendidos</dd>
+            </div>
+            <div class="stats-item">
+              <dt class="stats-value" aria-label="+20">
+                <span aria-hidden="true"
+                  >+<span data-count="true">0</span
+                  ><span class="stats-suffix"></span
+                ></span>
+              </dt>
+              <dd class="stats-label">Nichos diferentes</dd>
+            </div>
+            <div class="stats-item">
+              <dt class="stats-value" aria-label="+7K">
+                <span aria-hidden="true"
+                  >+<span data-count="true">0</span
+                  ><span class="stats-suffix">K</span></span
+                >
+              </dt>
+              <dd class="stats-label">Pessoas acompanham meu trabalho</dd>
+            </div>
+            <div class="stats-item">
+              <dt class="stats-value" aria-label="100%">
+                <span aria-hidden="true"
+                  ><span data-count="true">0</span
+                  ><span class="stats-suffix">%</span></span
+                >
+              </dt>
+              <dd class="stats-label">Projetos personalizados</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+      <!-- SEÇÃO 5 — TRANSIÇÃO COM NUVENS (só decorativa): fundo + 3 camadas de nuvens (data-cloud-layer). Pode manter como está -->
+      <section
+        class="fraaame-section"
+        aria-hidden="true"
+        style="background-image: url(images/fraaame-43.png)"
+      >
+        <div class="fraaame-cloud-wrap" aria-hidden="true">
+          <div
+            class="fraaame-cloud-layer fraaame-layer--back"
+            data-cloud-layer="1"
+          >
+            <img
+              class="fraaame-cloud fc-b1"
+              src="images/cloud-soft.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-b2"
+              src="images/cloud-voluminous.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-b3"
+              src="images/cloud-voluminous.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-b4"
+              src="images/cloud-soft.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-b5"
+              src="images/cloud-soft.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-b6"
+              src="images/cloud-voluminous.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            />
+          </div>
+          <div class="fraaame-cloud-layer" data-cloud-layer="2">
+            <img
+              class="fraaame-cloud fraaame-cloud--center"
+              src="images/cloud-voluminous.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fraaame-cloud--left"
+              src="images/cloud-soft.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fraaame-cloud--right"
+              src="images/cloud-soft.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-m1"
+              src="images/cloud-voluminous.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-m2"
+              src="images/cloud-voluminous.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-m3"
+              src="images/cloud-soft.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-m4"
+              src="images/cloud-voluminous.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            />
+          </div>
+          <div
+            class="fraaame-cloud-layer fraaame-layer--front"
+            data-cloud-layer="3"
+          >
+            <img
+              class="fraaame-cloud fc-f1"
+              src="images/cloud-soft.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-f2"
+              src="images/cloud-voluminous.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-f3"
+              src="images/cloud-soft.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            /><img
+              class="fraaame-cloud fc-f4"
+              src="images/cloud-voluminous.png"
+              alt=""
+              decoding="async"
+              draggable="false"
+            />
+          </div>
+        </div>
+      </section>
+      <!--
+        SEÇÃO 6 — PROJETOS (id='projects'): título, subtítulo e grade com 4 cartões
+        ✏️ É AQUI que entram os SEUS projetos
+      -->
+      <section
+        class="projects-section"
+        id="projects"
+        aria-labelledby="projects-headline"
+      >
+        <h2 class="projects-headline" id="projects-headline">
+          Veja na prática alguns
+          <span class="projects-grad">projetos reais</span> <br />feitos
+          recentemente:
+        </h2>
+        <p class="projects-sub">
+          Cada projeto nasce de uma estratégia para<!-- -->
+          <strong
+            >valorizar sua marca, prender atenção e facilitar a decisão do
+            cliente.</strong
+          >
+        </p>
+        <!-- GRADE DE PROJETOS. Cada <article class='project-card'> = 1 projeto. Copie/cole um cartão para adicionar outro -->
+        <div class="projects-grid">
+          <!-- CARTÃO DE PROJETO ✏️: (1) imagem em src='images/...' + alt, (2) nome no <h3>, (3) ano no <span>, (4) aria-label dos botões, (5) href do link (hoje '#projects' — coloque o link do seu projeto) -->
+          <article class="project-card">
+            <a
+              class="project-media"
+              href="#projects"
+              aria-label="Ver projeto NRAG"
+              ><img
+                src="images/project-gestor.webp"
+                alt="Site do projeto NRAG"
+                loading="lazy"
+                decoding="async"
+                width="1536"
+                height="640"
+            /></a>
+            <div class="project-foot">
+              <div class="project-meta">
+                <h3>NRAG</h3>
+                <span>2026</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="project-view"
+                  aria-label="Assistir vídeo do projeto NRAG"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg></button
+                ><button
+                  type="button"
+                  class="project-pill"
+                  aria-label="Assistir vídeo do projeto NRAG"
+                >
+                  Portfolio
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <a
+              class="project-media"
+              href="#projects"
+              aria-label="Ver projeto FROTA FÁCIL"
+              ><img
+                src="images/project-frota.webp"
+                alt="Site do projeto FROTA FÁCIL"
+                loading="lazy"
+                decoding="async"
+                width="1536"
+                height="640"
+            /></a>
+            <div class="project-foot">
+              <div class="project-meta">
+                <h3>FROTA FÁCIL</h3>
+                <span>2026</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="project-view"
+                  aria-label="Assistir vídeo do projeto FROTA FÁCIL"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg></button
+                ><button
+                  type="button"
+                  class="project-pill"
+                  aria-label="Assistir vídeo do projeto FROTA FÁCIL"
+                >
+                  Portfolio
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <a
+              class="project-media"
+              href="#projects"
+              aria-label="Ver projeto GIOBBEAUTY"
+              ><img
+                src="images/giobbeauty.webp"
+                alt="Site do projeto GIOBBEAUTY"
+                loading="lazy"
+                decoding="async"
+                width="1536"
+                height="640"
+            /></a>
+            <div class="project-foot">
+              <div class="project-meta">
+                <h3>GIOBBEAUTY</h3>
+                <span>2026</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="project-view"
+                  aria-label="Assistir vídeo do projeto GIOBBEAUTY"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg></button
+                ><button
+                  type="button"
+                  class="project-pill"
+                  aria-label="Assistir vídeo do projeto GIOBBEAUTY"
+                >
+                  Portfolio
+                </button>
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <a
+              class="project-media"
+              href="#projects"
+              aria-label="Ver projeto ACELERA MAIS"
+              ><img
+                src="images/project-acelera.webp"
+                alt="Site do projeto ACELERA MAIS"
+                loading="lazy"
+                decoding="async"
+                width="1536"
+                height="640"
+            /></a>
+            <div class="project-foot">
+              <div class="project-meta">
+                <h3>ACELERA MAIS</h3>
+                <span>2026</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="project-view"
+                  aria-label="Assistir vídeo do projeto ACELERA MAIS"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-right"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 7h10v10"></path>
+                    <path d="M7 17 17 7"></path>
+                  </svg></button
+                ><button
+                  type="button"
+                  class="project-pill"
+                  aria-label="Assistir vídeo do projeto ACELERA MAIS"
+                >
+                  Portfolio
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- SEÇÃO 7 — PROCESSO (id='processo'): 'Do contato inicial à entrega: Seis passos.' com linha azul animada -->
+      <section
+        class="process-timeline"
+        id="processo"
+        aria-labelledby="process-timeline-heading"
+      >
+        <div class="process-timeline-inner">
+          <!-- Imagens de fundo (4 tamanhos: mobile, tablet, desktop, desktop grande — o CSS mostra a certa para cada tela) -->
+          <div class="process-bg-layer" aria-hidden="true">
+            <img
+              class="process-bg process-bg--mobile"
+              src="images/process-bg-mobile.png"
+              alt=""
+              decoding="async"
+            /><img
+              class="process-bg process-bg--tablet"
+              src="images/process-bg-tablet.png"
+              alt=""
+              decoding="async"
+            /><img
+              class="process-bg process-bg--desktop"
+              src="images/process-bg-desktop.png"
+              alt=""
+              decoding="async"
+            /><img
+              class="process-bg process-bg--desktop-grande"
+              src="images/process-bg-desktop-grande.png"
+              alt=""
+              decoding="async"
+            />
+          </div>
+          <h2 id="process-timeline-heading">
+            Do contato inicial à entrega:<br /><span>Seis passos.</span>
+          </h2>
+          <!-- PASSOS: 6 <article class='process-step'>. ✏️ Edite número, título (h3) e descrição (p). O SVG acima desenha a linha que liga os passos -->
+          <div class="process-stage">
+            <svg
+              class="process-path-desktop"
+              viewBox="0 0 1000 400"
+              preserveAspectRatio="none"
+              aria-hidden="true"
+            >
+              <path
+                class="process-line-base"
+                d="M 44 66 H 950 Q 980 66 980 96 V 270 Q 980 300 950 300 H 44"
+              ></path>
+              <path
+                class="process-line-active"
+                d="M 44 66 H 950 Q 980 66 980 96 V 270 Q 980 300 950 300 H 44"
+              ></path></svg
+            ><svg
+              class="process-path-mobile"
+              viewBox="0 0 100 560"
+              preserveAspectRatio="none"
+              aria-hidden="true"
+            >
+              <path class="process-line-base" d="M 8 32 V 520"></path>
+              <path class="process-line-active" d="M 8 32 V 520"></path>
+            </svg>
+            <article class="process-step process-step--1">
+              <span class="process-number" aria-hidden="true">1</span>
+              <div class="process-step-copy">
+                <h3>Briefing</h3>
+                <p>
+                  Envio um briefing para entender o que você precisa, seu
+                  momento, seu objetivo e o que o site deve resolver.
+                </p>
+              </div>
+            </article>
+            <article class="process-step process-step--2">
+              <span class="process-number" aria-hidden="true">2</span>
+              <div class="process-step-copy">
+                <h3>Imersão</h3>
+                <p>
+                  Com tudo fechado, reúno as informações do briefing e organizo
+                  o que preciso para começar o projeto.
+                </p>
+              </div>
+            </article>
+            <article class="process-step process-step--3">
+              <span class="process-number" aria-hidden="true">3</span>
+              <div class="process-step-copy">
+                <h3>Site em desenvolvimento</h3>
+                <p>
+                  Transformo o briefing em estrutura, design e desenvolvimento,
+                  construindo seu site do zero.
+                </p>
+              </div>
+            </article>
+            <article class="process-step process-step--4">
+              <span class="process-number" aria-hidden="true">4</span>
+              <div class="process-step-copy">
+                <h3>Apresentação</h3>
+                <p>
+                  Apresento a primeira versão. Se aprovada, seguimos. Se
+                  precisar, faço os ajustes finos antes da próxima etapa.
+                </p>
+              </div>
+            </article>
+            <article class="process-step process-step--5">
+              <span class="process-number" aria-hidden="true">5</span>
+              <div class="process-step-copy">
+                <h3>Otimização</h3>
+                <p>
+                  Com tudo aprovado, otimizo a página e faço os últimos testes
+                  para deixar tudo pronto para ir ao ar.
+                </p>
+              </div>
+            </article>
+            <article class="process-step process-step--6">
+              <span class="process-number" aria-hidden="true">6</span>
+              <div class="process-step-copy">
+                <h3>Entrega</h3>
+                <p>
+                  Seu site é publicado 100% funcional, revisado e pronto para
+                  receber visitantes e gerar novas oportunidades.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- SEÇÃO 8 — DIFERENCIAIS (id='diferenciais'): 'Por que você deve escolher trabalhar comigo?' com 3 cartões -->
+      <section
+        class="why-section"
+        id="diferenciais"
+        aria-labelledby="why-headline"
+      >
+        <div class="why-head">
+          <h2 class="why-headline" id="why-headline">
+            Por que você<br />deve escolher<br /><span class="why-grad"
+              >trabalhar comigo?</span
+            >
+          </h2>
+        </div>
+        <!-- 3 CARTÕES (why-card): vídeo/imagem de fundo + título (h3) + texto. ✏️ Troque os textos pelos seus diferenciais -->
+        <div class="why-grid">
+          <article class="why-card">
+            <video
+              class="why-card-media"
+              autoplay=""
+              muted=""
+              loop=""
+              playsinline=""
+              aria-hidden="true"
+            >
+              <source src="media/universo-cards.webm" type="video/webm" />
+            </video>
+            <h3>Seu site é feito do zero</h3>
+            <p class="why-card-text">
+              Eu não uso template. Seu site é desenvolvido do zero, pensando na
+              sua marca, no seu negócio e no que você precisa vender.
+            </p>
+            <div class="why-card-glow" aria-hidden="true"></div>
+          </article>
+          <article class="why-card">
+            <img
+              class="why-card-media"
+              src="images/universo-card-identidade.webp"
+              alt=""
+              aria-hidden="true"
+            />
+            <h3>Um site seu, apenas seu.</h3>
+            <p class="why-card-text">
+              Seu site não vai ter a mesma cara de outros trezentos do mercado.
+              Eu desenvolvo cada detalhe pensando na identidade da sua marca e
+              na percepção que ela precisa passar.
+            </p>
+            <div class="why-card-glow" aria-hidden="true"></div>
+          </article>
+          <article class="why-card">
+            <video
+              class="why-card-media"
+              autoplay=""
+              muted=""
+              loop=""
+              playsinline=""
+              aria-hidden="true"
+            >
+              <source src="media/universo-cards-2.webm" type="video/webm" />
+            </video>
+            <h3>Estratégia antes de criar</h3>
+            <p class="why-card-text">
+              Eu estudo o seu nicho, entendo o que funciona para o seu público e
+              uso isso para construir um site pensado para converter.
+            </p>
+            <div class="why-card-glow" aria-hidden="true"></div>
+          </article>
+        </div>
+        <div class="why-cta-row">
+          <!-- ✏️ WHATSAPP: troque 5598984550854 pelo SEU número (código do país + DDD + número, sem espaços). Texto após ?text= = mensagem inicial -->
+          <a
+            class="cta-btn cta-primary"
+            href="https://wa.me/5598984550854?text=Ol%C3%A1%21%20Vi%20seu%20site%20e%20quero%20um%20or%C3%A7amento"
+            ><span class="cta-fill cta-fill--blue" aria-hidden="true"></span
+            ><span class="cta-fill cta-fill--white" aria-hidden="true"></span
+            ><span class="cta-label">Solicitar orçamento</span
+            ><span class="cta-chip"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-up-right"
+                aria-hidden="true"
+              >
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path></svg></span
+          ></a>
+        </div>
+      </section>
+      <!-- SEÇÃO 9 — SEO / PLATAFORMA (id='plataforma'): título, painel com vídeo de fundo e 3 cartões de argumentos -->
+      <section
+        class="gateways-section"
+        id="plataforma"
+        aria-labelledby="gateways-headline"
+        style="background-image: url(images/gateways-bg.png)"
+      >
+        <div class="gateways-head">
+          <h2 class="gateways-headline" id="gateways-headline">
+            Sua empresa conquistando mais espaço<br />e atraindo
+            <span class="gateways-grad">mais clientes</span>
+          </h2>
+          <p class="gateways-sub">
+            O trabalho em SEO é pensado para ranquear melhor no Google, e atrair
+            clientes ideais. A sua empresa aparece quando alguém procura pelo
+            seu serviço.
+          </p>
+        </div>
+        <!-- PAINEL com VÍDEO de fundo (media/gateways-panel-background.mp4/.webm; poster = imagem enquanto carrega) e texto por cima -->
+        <div class="gateways-panel">
+          <video
+            class="gateways-panel-video"
+            autoplay=""
+            muted=""
+            loop=""
+            playsinline=""
+            poster="images/gateways-panel-poster.webp"
+            aria-hidden="true"
+          >
+            <source
+              src="media/gateways-panel-background.webm"
+              type="video/webm"
+            />
+            <source
+              src="media/gateways-panel-background.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div class="gateways-panel-copy">
+            <h3>Soluções que<br />impulsionam o<br />seu negócio</h3>
+            <p>
+              <span class="gateways-sub-line"
+                >Desde a criação do zero até a otimização em SEO</span
+              ><span class="gateways-sub-line"
+                >para ranqueamento no google.</span
+              >
+            </p>
+          </div>
+        </div>
+        <!-- 3 CARTÕES de argumentos (h4 + p) ✏️ edite os textos -->
+        <div class="gateways-features">
+          <article
+            class="gateways-feature"
+            style="background-image: url(images/gateways-feature-bg.webp)"
+          >
+            <h4>Cuidado com o seu concorrente.</h4>
+            <p>
+              Se o site da sua empresa estiver com o SEO mal configurado, é
+              muito mais fácil que o teu possível cliente compre do seu
+              concorrente.
+            </p>
+          </article>
+          <article
+            class="gateways-feature"
+            style="background-image: url(images/gateways-feature-bg.webp)"
+          >
+            <h4>Inteligências Artificiais</h4>
+            <p>
+              Com as novas atualizações, até as IAs estão indicando empresas bem
+              ranqueadas no Google.
+            </p>
+          </article>
+          <article
+            class="gateways-feature"
+            style="background-image: url(images/gateways-feature-bg.webp)"
+          >
+            <h4>Percepção de valor</h4>
+            <p>
+              Uma empresa bem ranqueada gera muito mais confiança naquele
+              cliente que está pronto para passar o cartão.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- SEÇÃO 10 — 'Meu objetivo é aumentar seus resultados': texto + imagem da mão (images/hand-logo.webp ✏️ troque pelo seu símbolo/logo) -->
+      <section class="brand-hand-section" aria-labelledby="brand-hand-heading">
+        <div class="brand-hand-inner">
+          <div class="brand-hand-copy">
+            <h2 id="brand-hand-heading">
+              Meu objetivo é aumentar<br />seus <span>resultados.</span>
+            </h2>
+            <p>
+              Cada empresa tem um objetivo diferente. Por isso, eu busco
+              entender o que precisa acontecer para o seu investimento gerar
+              retorno.
+            </p>
+          </div>
+          <img
+            class="brand-hand-art"
+            src="images/hand-logo.webp"
+            alt="Mão segurando uma peça luminosa com o símbolo da marca"
+            width="1254"
+            height="1254"
+          />
+        </div>
+      </section>
+      <!-- SEÇÃO 11 — FAQ (perguntas frequentes). O clique que abre/fecha cada pergunta está no js/static-fix.js (adiciona a classe 'is-open') -->
+      <section class="faq-section" id="faq" aria-labelledby="faq-heading">
+        <div class="faq-card">
+          <h2 class="faq-title" id="faq-heading">Perguntas Frequentes</h2>
+          <div class="faq-list">
+            <!-- UMA PERGUNTA ✏️: botão .faq-question (a pergunta) + .faq-answer (a resposta). Copie o bloco para criar outra; mude o número do id/aria-controls (faq-answer-N) -->
+            <article class="faq-row">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-0"
+              >
+                <span class="faq-q-text"
+                  >Em quanto tempo meu site fica pronto?</span
+                ><span class="faq-toggle" aria-hidden="true"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  >
+                    <line
+                      x1="12"
+                      y1="5"
+                      x2="12"
+                      y2="19"
+                      class="faq-toggle-v"
+                    ></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line></svg
+                ></span>
+              </button>
+              <div class="faq-answer" id="faq-answer-0" role="region">
+                <div class="faq-answer-inner">
+                  <p>
+                    O prazo varia de acordo com a complexidade do projeto e a
+                    rapidez no envio dos materiais. Em média, a entrega acontece
+                    entre 5 dias úteis e 3 semanas.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="faq-row">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-1"
+              >
+                <span class="faq-q-text">Como funciona o pagamento?</span
+                ><span class="faq-toggle" aria-hidden="true"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  >
+                    <line
+                      x1="12"
+                      y1="5"
+                      x2="12"
+                      y2="19"
+                      class="faq-toggle-v"
+                    ></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line></svg
+                ></span>
+              </button>
+              <div class="faq-answer" id="faq-answer-1" role="region">
+                <div class="faq-answer-inner">
+                  <p>
+                    O pagamento pode ser realizado via Pix. Você pode optar pelo
+                    pagamento à vista (com desconto) ou em 50% no início do
+                    projeto e 50% na entrega.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="faq-row">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-2"
+              >
+                <span class="faq-q-text"
+                  >Vocês desenvolvem qualquer tipo de site?</span
+                ><span class="faq-toggle" aria-hidden="true"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  >
+                    <line
+                      x1="12"
+                      y1="5"
+                      x2="12"
+                      y2="19"
+                      class="faq-toggle-v"
+                    ></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line></svg
+                ></span>
+              </button>
+              <div class="faq-answer" id="faq-answer-2" role="region">
+                <div class="faq-answer-inner">
+                  <p>
+                    Sim. Cada projeto é desenvolvido de forma personalizada para
+                    atender às necessidades do seu negócio, seja uma landing
+                    page, site institucional ou uma solução mais completa.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="faq-row">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-3"
+              >
+                <span class="faq-q-text"
+                  >Preciso ter todo o conteúdo pronto para começar?</span
+                ><span class="faq-toggle" aria-hidden="true"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  >
+                    <line
+                      x1="12"
+                      y1="5"
+                      x2="12"
+                      y2="19"
+                      class="faq-toggle-v"
+                    ></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line></svg
+                ></span>
+              </button>
+              <div class="faq-answer" id="faq-answer-3" role="region">
+                <div class="faq-answer-inner">
+                  <p>
+                    Não. Caso seja necessário, eu ajudo na estruturação do
+                    conteúdo para que seu site tenha uma comunicação clara,
+                    profissional e focada em resultados.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="faq-row">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-4"
+              >
+                <span class="faq-q-text"
+                  >Como funciona a responsividade do site?</span
+                ><span class="faq-toggle" aria-hidden="true"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  >
+                    <line
+                      x1="12"
+                      y1="5"
+                      x2="12"
+                      y2="19"
+                      class="faq-toggle-v"
+                    ></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line></svg
+                ></span>
+              </button>
+              <div class="faq-answer" id="faq-answer-4" role="region">
+                <div class="faq-answer-inner">
+                  <p>
+                    Todos os projetos são desenvolvidos para funcionar
+                    perfeitamente em celulares, tablets, notebooks e
+                    computadores, garantindo uma excelente experiência em
+                    qualquer tamanho de tela.
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article class="faq-row">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-5"
+              >
+                <span class="faq-q-text"
+                  >Como funciona o suporte após a entrega?</span
+                ><span class="faq-toggle" aria-hidden="true"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  >
+                    <line
+                      x1="12"
+                      y1="5"
+                      x2="12"
+                      y2="19"
+                      class="faq-toggle-v"
+                    ></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line></svg
+                ></span>
+              </button>
+              <div class="faq-answer" id="faq-answer-5" role="region">
+                <div class="faq-answer-inner">
+                  <p>
+                    Após a entrega do projeto, você conta com 7 dias de suporte
+                    para resolver qualquer questão relacionada ao funcionamento
+                    do site. Além disso, estão incluídas até duas rodadas de
+                    ajustes, para garantir que tudo fique exatamente como
+                    esperado.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- SEÇÃO 12 — RODAPÉ (id='contact'): logo + slogan, 3 colunas de links, copyright e Instagram -->
+      <footer class="site-footer" id="contact">
+        <div class="site-footer-inner">
+          <div class="site-footer-top">
+            <div class="site-footer-brand">
+              <img
+                src="images/logo-ic-footer.webp"
+                alt="Logo Ian Chaves"
+                class="site-footer-mark"
+              />
+              <p>Sites que colocam sua marca no digital</p>
+            </div>
+            <!-- COLUNAS DE LINKS. '#' = ainda não leva a lugar nenhum (Termos, Privacidade, Cookies: ✏️ crie as páginas ou remova) -->
+            <nav class="site-footer-col" aria-label="Navegação">
+              <a href="#">Início</a><a href="#projects">Projetos</a
+              ><a href="#processo">Processo</a><a href="#faq">FAQ</a>
+            </nav>
+            <nav class="site-footer-col" aria-label="Seções">
+              <a href="#vantagens">Vantagens</a
+              ><a href="#resultados">Resultados</a
+              ><a href="#diferenciais">Diferenciais</a
+              ><a href="#plataforma">Plataforma</a>
+            </nav>
+            <nav class="site-footer-col site-footer-legal" aria-label="Legal">
+              <a href="#">Termos e Condições</a
+              ><a href="#">Política de Privacidade</a
+              ><a href="#">Política de Cookies</a>
+            </nav>
+          </div>
+          <!-- PARTE DE BAIXO: copyright (✏️ seu nome/ano), link do Instagram e botão 'voltar ao topo' -->
+          <div class="site-footer-bottom">
+            <p class="site-footer-copy">2026 © Todos os direitos reservados</p>
+            <div class="site-footer-actions">
+              <!-- ✏️ INSTAGRAM: troque o href (https://www.instagram.com/SEU_USUARIO/) e o texto 'ian._.chaves' -->
+              <a
+                class="site-footer-insta"
+                href="https://www.instagram.com/ian._.chaves/"
+                target="_blank"
+                rel="noreferrer"
+                ><span class="site-footer-insta-chip"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-instagram"
+                    aria-hidden="true"
+                  >
+                    <rect
+                      width="20"
+                      height="20"
+                      x="2"
+                      y="2"
+                      rx="5"
+                      ry="5"
+                    ></rect>
+                    <path
+                      d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                    ></path>
+                    <line
+                      x1="17.5"
+                      x2="17.51"
+                      y1="6.5"
+                      y2="6.5"
+                    ></line></svg></span
+                ><span>ian._.chaves</span></a
+              ><a
+                href="#"
+                class="site-footer-top-circle"
+                aria-label="Voltar ao topo"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-arrow-up"
+                  aria-hidden="true"
+                >
+                  <path d="m5 12 7-7 7 7"></path>
+                  <path d="M12 19V5"></path></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- BARRA FLUTUANTE (canto inferior direito): logo + botão de WhatsApp. Aparece ao rolar passando do hero (js/static-fix.js adiciona 'floating-bar--ativo'). ✏️ Troque a logo e o link do WhatsApp -->
+      <div class="floating-bar" aria-hidden="true">
+        <img
+          class="floating-bar-logo"
+          src="images/minha-logo.jpg"
+          alt="Logo Ian Chaves"
+        /><a
+          class="cta-btn cta-primary"
+          href="https://wa.me/5598984550854?text=Ol%C3%A1%21%20Vi%20seu%20site%20e%20quero%20um%20or%C3%A7amento"
+          tabindex="-1"
+          ><span class="cta-fill cta-fill--blue" aria-hidden="true"></span
+          ><span class="cta-fill cta-fill--white" aria-hidden="true"></span
+          ><span class="cta-label">Solicitar orçamento</span
+          ><span class="cta-chip"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-arrow-up-right"
+              aria-hidden="true"
+            >
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path></svg></span
+        ></a>
+      </div>
+    </main>
+    <!--/$-->
+    <!-- PRELOADER: tela preta inicial com nome e contagem 0%→100%. O js/static-fix.js anima e remove; sem JS o CSS no <head> o esconde após 3s -->
+    <div class="preloader" aria-hidden="true">
+      <div class="preloader-center"><h1 class="preloader-name">IAN CHAVES</h1></div>
+      <span class="preloader-count">0%</span>
+      <div class="preloader-track"><span class="preloader-bar"></span></div>
+    </div>
+    <!-- JAVASCRIPT do site (funções explicadas dentro do próprio arquivo js/static-fix.js) -->
+    <script src="js/static-fix.js" defer></script>
+  </body>
+</html>
